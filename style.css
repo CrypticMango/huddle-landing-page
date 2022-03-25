@@ -20,22 +20,39 @@ body {
 
 h1, p {
     color: white;
+    text-align: left;
+    
 }
 
 h1 {
     font-family: 'Poppins', sans-serif; 
+    padding: 0px 350px 0px 0px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    padding: 0px 300px 0px 0px;
+    font-size: 15px;
+}
+
+button {
+    padding: 15px 55px;
+    border-radius: 22px;
+    border: none;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-
+.right-panel {
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+    
+}
 
 .attribution {
   font-size: 12px;
@@ -43,4 +60,9 @@ p {
 }
 .attribution a {
   color: white;
+}
+
+ion-icon {
+    color: white;
+    font-size: 25px;
 }
