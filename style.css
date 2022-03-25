@@ -1,3 +1,9 @@
+/* TODOS -fix padding so it does not offset center line 
+- add mobile styling
+-change size of huddle logo
+-reposition logo higher on the page
+-reposition social media logos*/
+
 :root {
     --violet: hsl(257, 40%, 49%);
     --soft-magenta: hsl(300, 69%, 71%); 
