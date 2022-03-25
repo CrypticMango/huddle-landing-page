@@ -36,9 +36,21 @@ p {
 }
 
 button {
-    padding: 15px 55px;
+    padding: 12px 50px;
     border-radius: 22px;
     border: none;
+    position: relative;
+    top: 5px;
+    color: var(--violet);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.459);
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--soft-magenta);
 }
 
 .container {
@@ -65,4 +77,9 @@ button {
 ion-icon {
     color: white;
     font-size: 25px;
+}
+
+ion-icon:hover {
+    color: var(--soft-magenta);
+    cursor: pointer;
 }
