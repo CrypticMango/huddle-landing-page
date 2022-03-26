@@ -100,24 +100,22 @@ p {
   color: white;
 }
 
-.facebook-logo {
-   fill: white;
-   color: aqua;
-   width: 30px;
-}
-
 .f-button, .t-button, .i-button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    border: solid 1px white;
     position: relative;
-    top: 20px;
+    top: 250px;
+    left: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
 }
 
-i {
-    font-size: 20px;
-}
-i:hover {
-    color: var(--soft-magenta);
+.f-button:hover,  .t-button:hover, .i-button:hover{
+    border: solid 1px var(--soft-magenta);
     cursor: pointer;
+    color: var(--soft-magenta);
 }
