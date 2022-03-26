@@ -42,7 +42,7 @@ p {
     
 }
 
-button {
+.register {
     padding: 12px 50px;
     border-radius: 22px;
     border: none;
@@ -54,7 +54,7 @@ button {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.459);
 }
 
-button:hover {
+.register:hover {
     cursor: pointer;
     color: white;
     background-color: var(--soft-magenta);
@@ -106,14 +106,17 @@ button:hover {
    width: 30px;
 }
 
-i {
-    color: white;
-    font-size: 30px;
+.f-button, .t-button, .i-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     position: relative;
-    top: 300px;
-    left: 300px;
+    top: 20px;
 }
 
+i {
+    font-size: 20px;
+}
 i:hover {
     color: var(--soft-magenta);
     cursor: pointer;
