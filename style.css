@@ -36,7 +36,7 @@ h1 {
 	padding: 0px 300px 0px 0px;
 }
 
-p {
+.description {
 	font-family: "Open Sans", sans-serif;
 	font-size: 19px;
 	padding: 0px 290px 0px 0px;
@@ -128,31 +128,61 @@ p {
 @media (max-width: 400px) {
 	body {
 		background-image: url(/images/bg-mobile.svg);
+		background-size: auto;
 		background-repeat: no-repeat;
-		align-items: flex-start;
+		margin: 15px 3px;
 	}
 
 	h1 {
-		padding: none;
+		padding: 0px 0px 0px 0px;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
 	}
 
 	.huddle-logo {
 		position: relative;
-		top: -30px;
+		top: -55px;
+		width: 150px;
 	}
 
-	.container {
-		display: flex;
-		flex-direction: column;
-		margin: none;
+	.left-panel {
+		width: 0;
 	}
 
-	.right-panel {
-		align-items: center;
+	.display-mockup {
+        position: relative;
+        top: -10px;
+		width: 340px;
+		height: 250px;
 	}
 
-	.attribution {
-		font-size: 30px;
-		padding: none;
+	.build-community {
+		font-size: 20px;
 	}
+
+	.description {
+		font-size: 10px;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.f-button,
+	.t-button,
+	.i-button {
+		position: relative;
+		top: 100px;
+		left: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+	}
+
+    .attribution {
+        font-family: "Open Sans", sans-serif;
+        padding-left: 20px;
+
+    }
 }
