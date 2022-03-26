@@ -130,7 +130,7 @@ h1 {
 		background-image: url(/images/bg-mobile.svg);
 		background-size: auto;
 		background-repeat: no-repeat;
-        background-size: 390px;
+		background-size: 390px;
 		margin: 15px 8px;
 	}
 
@@ -146,7 +146,7 @@ h1 {
 
 	.huddle-logo {
 		position: relative;
-		top: -85px;
+		top: -80px;
 		width: 140px;
 	}
 
@@ -154,53 +154,55 @@ h1 {
 		width: 0;
 	}
 
-    .right-panel {
-        margin: 0;
-        padding: 0px 20px;
-        position: relative;
-        top: 15px;
-    }
+	.right-panel {
+		margin: 0;
+		padding: 0px 20px;
+		position: relative;
+		top: 15px;
+	}
 
 	.display-mockup {
-        position: relative;
-        top: -20px;
+		position: relative;
+		top: -20px;
 		width: 320px;
 		height: 230px;
 	}
 
 	.build-community {
 		font-size: 25px;
-        text-align: center;
+		text-align: center;
 	}
 
 	.description {
 		font-size: 17px;
 		padding: 0px 10px 0px 0px;
-        text-align: center;
+		text-align: center;
 	}
 
 	.f-button,
 	.t-button,
 	.i-button {
 		position: relative;
-		top: 100px;
-		left: 50px;
-        width: 30px;
-        height: 30px;
-        font-size: 15px;
+		top: 80px;
+		left: 95px;
+		width: 30px;
+		height: 30px;
+		font-size: 15px;
 	}
 
-    .attribution {
-        font-family: "Open Sans", sans-serif;
-        padding-left: 20px;
-        position: relative;
-        top: 100px;
-        left: -15px;
-    }
+	.attribution {
+		font-family: "Open Sans", sans-serif;
+		padding-left: 20px;
+		position: relative;
+		top: 120px;
+		left: -15px;
+		margin: 0;
+		font-size: 12px;
+	}
 
-    .register {
-        padding: 12px 80px;
-        position: relative;
-        left: 55px;
-    }
+	.register {
+		padding: 12px 80px;
+		position: relative;
+		left: 55px;
+	}
 }
