@@ -3,119 +3,156 @@
 -reposition social media logos*/
 
 :root {
-    --violet: hsl(257, 40%, 49%);
-    --soft-magenta: hsl(300, 69%, 71%); 
+	--violet: hsl(257, 40%, 49%);
+	--soft-magenta: hsl(300, 69%, 71%);
 }
 
 body {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    background-color: var(--violet);
-    background-image: url(/images/bg-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    /* background-image: url(/images/bg-mobile.svg)*/
-    /* font-family: 'Open Sans', sans-serif (body);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	background-color: var(--violet);
+	background-image: url(/images/bg-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	/* background-image: url(/images/bg-mobile.svg)*/
+	/* font-family: 'Open Sans', sans-serif (body);
     font-family: 'Poppins', sans-serif (headings;*/
 }
 
-h1, p {
-    color: white;
-    text-align: left;
-    font-size: 40px;
+h1,
+p {
+	color: white;
+	text-align: left;
+	font-size: 40px;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif; 
-    padding: 0px 300px 0px 0px;
+	font-family: "Poppins", sans-serif;
+	padding: 0px 300px 0px 0px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    padding: 0px 290px 0px 0px;
-    
+	font-family: "Open Sans", sans-serif;
+	font-size: 19px;
+	padding: 0px 290px 0px 0px;
 }
 
 .register {
-    padding: 12px 50px;
-    border-radius: 22px;
-    border: none;
-    position: relative;
-    top: 5px;
-    color: var(--violet);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.459);
+	padding: 12px 50px;
+	border-radius: 22px;
+	border: none;
+	position: relative;
+	top: 5px;
+	color: var(--violet);
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.459);
 }
 
 .register:hover {
-    cursor: pointer;
-    color: white;
-    background-color: var(--soft-magenta);
+	cursor: pointer;
+	color: white;
+	background-color: var(--soft-magenta);
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
 }
 
 .right-panel {
-    position: relative;
-    top: 100px;
-    margin: 50px 70px;
+	position: relative;
+	top: 100px;
+	margin: 50px 70px;
 }
 
 .left-panel {
-    width: 1000px;
+	width: 1000px;
 }
 
 .display-mockup {
-    position: relative;
-    top: 45px;
-    left: 20px;
-    width: 850px;
-    height: 600px;
+	position: relative;
+	top: 45px;
+	left: 20px;
+	width: 850px;
+	height: 600px;
 }
 
 .huddle-logo {
-    width: 250px;
-    position: relative;
-    left: 20px;
-    top: -65px;
+	width: 250px;
+	position: relative;
+	left: 20px;
+	top: -65px;
+}
+
+.f-button,
+.t-button,
+.i-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: solid 1px white;
+	position: relative;
+	top: 250px;
+	left: 400px;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+}
+
+.f-button:hover,
+.t-button:hover,
+.i-button:hover {
+	border: solid 1px var(--soft-magenta);
+	cursor: pointer;
+	color: var(--soft-magenta);
 }
 
 .attribution {
-  font-size: 12px;
-  text-align: center;
+	position: relative;
+	top: 40px;
+	font-size: 12px;
+	text-align: center;
 }
 .attribution a {
-  color: white;
+	color: white;
 }
 
-.f-button, .t-button, .i-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: solid 1px white;
-    position: relative;
-    top: 250px;
-    left: 400px;
-    background-color: rgba(255, 255, 255, 0);
-    font-size: 20px;
-    color: white;
-    margin-left: 10px;
-}
+@media (max-width: 400px) {
+	body {
+		background-image: url(/images/bg-mobile.svg);
+		background-repeat: no-repeat;
+		align-items: flex-start;
+	}
 
-.f-button:hover,  .t-button:hover, .i-button:hover{
-    border: solid 1px var(--soft-magenta);
-    cursor: pointer;
-    color: var(--soft-magenta);
+	h1 {
+		padding: none;
+	}
+
+	.huddle-logo {
+		position: relative;
+		top: -30px;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		margin: none;
+	}
+
+	.right-panel {
+		align-items: center;
+	}
+
+	.attribution {
+		font-size: 30px;
+		padding: none;
+	}
 }
