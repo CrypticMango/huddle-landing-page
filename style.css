@@ -15,81 +15,15 @@ body {
 	margin: 0;
 	min-height: 100vh;
 	background-color: var(--violet);
-	background-image: url(/images/bg-desktop.svg);
+	background-image: url(/images/bg-mobile.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-attachment: fixed;
-	/* background-image: url(/images/bg-mobile.svg)*/
+	/* background-image: url(/images/bg-mobile.svg) /images/bg-desktop.svg*/
 	/* font-family: 'Open Sans', sans-serif (body);
     font-family: 'Poppins', sans-serif (headings;*/
 }
 
-h1,
-p {
-	color: white;
-	text-align: left;
-	font-size: 40px;
-}
-
-h1 {
-	font-family: "Poppins", sans-serif;
-	padding: 0px 300px 0px 0px;
-}
-
-.description {
-	font-family: "Open Sans", sans-serif;
-	font-size: 19px;
-	padding: 0px 290px 0px 0px;
-}
-
-.register {
-	padding: 12px 50px;
-	border-radius: 22px;
-	border: none;
-	position: relative;
-	top: 5px;
-	color: var(--violet);
-	font-family: "Open Sans", sans-serif;
-	font-size: 15px;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.322);
-}
-
-.register:hover {
-	cursor: pointer;
-	color: white;
-	background-color: var(--soft-magenta);
-}
-
-.container {
-	display: flex;
-	flex-direction: row;
-	margin: 50px;
-}
-
-.right-panel {
-	position: relative;
-	top: 100px;
-	margin: 50px 70px;
-}
-
-.left-panel {
-	width: 1000px;
-}
-
-.display-mockup {
-	position: relative;
-	top: 45px;
-	left: 20px;
-	width: 850px;
-	height: 600px;
-}
-
-.huddle-logo {
-	width: 250px;
-	position: relative;
-	left: 20px;
-	top: -65px;
-}
 
 .f-button,
 .t-button,
@@ -98,9 +32,6 @@ h1 {
 	height: 40px;
 	border-radius: 50%;
 	border: solid 1px white;
-	position: relative;
-	top: 250px;
-	left: 400px;
 	background-color: rgba(255, 255, 255, 0);
 	font-size: 20px;
 	color: white;
@@ -125,84 +56,3 @@ h1 {
 	color: white;
 }
 
-@media (max-width: 500px) {
-	body {
-		background-image: url(/images/bg-mobile.svg);
-		background-size: auto;
-		background-repeat: no-repeat;
-		background-size: 390px;
-		margin: 15px 8px;
-	}
-
-	h1 {
-		padding: 0px 0px 0px 0px;
-	}
-	.container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		margin: 0;
-	}
-
-	.huddle-logo {
-		position: relative;
-		top: -80px;
-		width: 140px;
-	}
-
-	.left-panel {
-		width: 0;
-	}
-
-	.right-panel {
-		margin: 0;
-		padding: 0px 20px;
-		position: relative;
-		top: 15px;
-	}
-
-	.display-mockup {
-		position: relative;
-		top: -20px;
-		width: 320px;
-		height: 230px;
-	}
-
-	.build-community {
-		font-size: 25px;
-		text-align: center;
-	}
-
-	.description {
-		font-size: 17px;
-		padding: 0px 10px 0px 0px;
-		text-align: center;
-	}
-
-	.f-button,
-	.t-button,
-	.i-button {
-		position: relative;
-		top: 80px;
-		left: 95px;
-		width: 30px;
-		height: 30px;
-		font-size: 15px;
-	}
-
-	.attribution {
-		font-family: "Open Sans", sans-serif;
-		padding-left: 20px;
-		position: relative;
-		top: 120px;
-		left: -15px;
-		margin: 0;
-		font-size: 12px;
-	}
-
-	.register {
-		padding: 12px 80px;
-		position: relative;
-		left: 55px;
-	}
-}
