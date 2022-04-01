@@ -13,7 +13,7 @@ body {
 	background-color: var(--violet);
 	background-image: url(/images/bg-mobile.svg);
 	background-repeat: no-repeat;
-	background-size: 375px;
+	background-size: 100%;
 	background-attachment: fixed;
 	/* background-image: url(/images/bg-mobile.svg) /images/bg-desktop.svg*/
 	/* font-family: 'Open Sans', sans-serif (body);
@@ -98,4 +98,43 @@ p {
 }
 .attribution a {
 	color: white;
+}
+
+@media (min-width: 900px) {
+	body {
+	margin: 0px 60px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(/images/bg-desktop.svg);
+	background-size: contain;
+	}
+
+	h1, p {
+		text-align: left;
+		
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.huddle-logo {
+		width: 190px;
+		position: relative;
+		left: -35px;
+		top: -20px;
+	}
+
+	.display-mockup {
+		width: 145%;
+	}
+
+	.container .right-panel {
+		padding-left: 0px 300px 0px 20px;
+	}
+
 }
