@@ -1,17 +1,13 @@
-/* TODOS
-- add mobile styling
--reposition social media logos*/
-
 :root {
 	--violet: hsl(257, 40%, 49%);
 	--soft-magenta: hsl(300, 69%, 71%);
 }
 
 body {
-	align-items: center;
+	/*align-items: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;*/
 	margin: 0;
 	min-height: 100vh;
 	background-color: var(--violet);
@@ -23,7 +19,6 @@ body {
 	/* font-family: 'Open Sans', sans-serif (body);
     font-family: 'Poppins', sans-serif (headings;*/
 }
-
 
 .f-button,
 .t-button,
@@ -55,4 +50,3 @@ body {
 .attribution a {
 	color: white;
 }
-
