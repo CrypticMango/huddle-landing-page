@@ -113,28 +113,37 @@ p {
 
 	h1, p {
 		text-align: left;
-		
 	}
+
+	h1 {
+	 font-size: 38px;
+	}
+
+	p {
+		font-size: 17px;
+	}
+	
 
 	.container {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
 	}
 
 	.huddle-logo {
 		width: 190px;
 		position: relative;
 		left: -35px;
-		top: -20px;
+		top: -10px;
 	}
 
 	.display-mockup {
-		width: 145%;
+		width: 680px;
+		position: relative;
+		top: 15px;
 	}
 
-	.container .right-panel {
-		padding-left: 0px 300px 0px 20px;
+	.right-panel {
+		padding: 175px 60px 0px 20px;
 	}
 
 }
