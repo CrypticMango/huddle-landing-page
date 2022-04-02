@@ -64,6 +64,13 @@ p {
 	box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.315);
 }
 
+.register:hover {
+	background-color: var(--soft-magenta);
+	border: solid 1px var(--soft-magenta);
+	color: white;
+	cursor: pointer;
+}
+
 .social-icons {
 	display: flex;
 	justify-content: center;
@@ -77,7 +84,7 @@ p {
 	border-radius: 50%;
 	border: solid 1px white;
 	background-color: rgba(255, 255, 255, 0);
-	font-size: 20px;
+	font-size: 16px;
 	color: white;
 	margin-right: 10px;
 }
@@ -102,27 +109,27 @@ p {
 
 @media (min-width: 900px) {
 	body {
-	margin: 0px 60px;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-image: url(/images/bg-desktop.svg);
-	background-size: contain;
+		margin: 0px 60px;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-image: url(/images/bg-desktop.svg);
+		background-size: contain;
 	}
 
-	h1, p {
+	h1,
+	p {
 		text-align: left;
 	}
 
 	h1 {
-	 font-size: 38px;
+		font-size: 38px;
 	}
 
 	p {
 		font-size: 17px;
 	}
-	
 
 	.container {
 		display: flex;
@@ -146,4 +153,22 @@ p {
 		padding: 175px 60px 0px 20px;
 	}
 
+	.register {
+		font-size: 18px;
+		padding: 15px 60px;
+		display: block;
+		margin: 25px 0px 0px 35px;
+	}
+
+	.social-icons {
+		position: relative;
+		top: 160px;
+		padding-left: 370px;
+	}
+
+	.f-button,
+	.t-button,
+	.i-button {
+		margin-right: 15px;
+	}
 }
