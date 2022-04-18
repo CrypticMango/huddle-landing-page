@@ -1,174 +1,174 @@
 :root {
-	--violet: hsl(257, 40%, 49%);
-	--soft-magenta: hsl(300, 69%, 71%);
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
 }
 
 body {
-	/*align-items: center;
+  /*align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;*/
-	margin: auto;
-	min-height: 100vh;
-	background-color: var(--violet);
-	background-image: url(/images/bg-mobile.svg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
-	/* background-image: url(/images/bg-mobile.svg) /images/bg-desktop.svg*/
-	/* font-family: 'Open Sans', sans-serif (body);
+  margin: auto;
+  min-height: 100vh;
+  background-color: var(--violet);
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-image: url(/images/bg-mobile.svg) /images/bg-desktop.svg*/
+  /* font-family: 'Open Sans', sans-serif (body);
     font-family: 'Poppins', sans-serif (headings;*/
 }
 
 h1,
 p {
-	color: white;
-	text-align: center;
+  color: white;
+  text-align: center;
 }
 
 h1 {
-	font-family: "Poppins", sans-serif;
-	font-size: 25px;
-	padding: 0px 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  padding: 0px 35px;
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
-	font-size: 16px;
-	padding: 0px 35px;
-	line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0px 35px;
+  line-height: 25px;
 }
 
 .huddle-logo {
-	width: 130px;
-	padding: 35px 0px 55px 32px;
+  width: 130px;
+  padding: 35px 0px 55px 32px;
 }
 
 .display-mockup {
-	width: 300px;
-	display: block;
-	margin: auto;
-	padding: 0px 0px 35px 0px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  padding: 0px 0px 35px 0px;
 }
 
 .register {
-	display: block;
-	margin: auto;
-	padding: 12px 80px;
-	border: solid white 1px;
-	border-radius: 50px;
-	font-family: "Open Sans", sans-serif;
-	color: var(--violet);
-	margin-top: 25px;
-	margin-bottom: 70px;
-	box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.315);
+  display: block;
+  margin: auto;
+  padding: 12px 80px;
+  border: solid white 1px;
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--violet);
+  margin-top: 25px;
+  margin-bottom: 70px;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.315);
 }
 
 .register:hover {
-	background-color: var(--soft-magenta);
-	border: solid 1px var(--soft-magenta);
-	color: white;
-	cursor: pointer;
+  background-color: var(--soft-magenta);
+  border: solid 1px var(--soft-magenta);
+  color: white;
+  cursor: pointer;
 }
 
 .social-icons {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .f-button,
 .t-button,
 .i-button {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: solid 1px white;
-	background-color: rgba(255, 255, 255, 0);
-	font-size: 16px;
-	color: white;
-	margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1px white;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 16px;
+  color: white;
+  margin-right: 10px;
 }
 
 .f-button:hover,
 .t-button:hover,
 .i-button:hover {
-	border: solid 1px var(--soft-magenta);
-	cursor: pointer;
-	color: var(--soft-magenta);
+  border: solid 1px var(--soft-magenta);
+  cursor: pointer;
+  color: var(--soft-magenta);
 }
 
 .attribution {
-	position: relative;
-	top: 40px;
-	font-size: 12px;
-	text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 12px;
+  text-align: center;
 }
 .attribution a {
-	color: white;
+  color: white;
 }
 
 @media (min-width: 900px) {
-	body {
-		margin: 0px 60px;
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		background-image: url(/images/bg-desktop.svg);
-		background-size: contain;
-	}
+  body {
+    margin: 0px 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/images/bg-desktop.svg);
+    background-size: contain;
+  }
 
-	h1,
-	p {
-		text-align: left;
-	}
+  h1,
+  p {
+    text-align: left;
+  }
 
-	h1 {
-		font-size: 38px;
-	}
+  h1 {
+    font-size: 38px;
+  }
 
-	p {
-		font-size: 17px;
-	}
+  p {
+    font-size: 17px;
+  }
 
-	.container {
-		display: flex;
-		flex-direction: row;
-	}
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
 
-	.huddle-logo {
-		width: 190px;
-		position: relative;
-		left: -35px;
-		top: -10px;
-	}
+  .huddle-logo {
+    width: 190px;
+    position: relative;
+    left: -35px;
+    top: -10px;
+  }
 
-	.display-mockup {
-		width: 680px;
-		position: relative;
-		top: 15px;
-	}
+  .display-mockup {
+    width: 680px;
+    position: relative;
+    top: 15px;
+  }
 
-	.right-panel {
-		padding: 175px 60px 0px 20px;
-	}
+  .right-panel {
+    padding: 175px 60px 0px 20px;
+  }
 
-	.register {
-		font-size: 18px;
-		padding: 15px 60px;
-		display: block;
-		margin: 25px 0px 0px 35px;
-	}
+  .register {
+    font-size: 18px;
+    padding: 15px 60px;
+    display: block;
+    margin: 25px 0px 0px 35px;
+  }
 
-	.social-icons {
-		position: relative;
-		top: 160px;
-		padding-left: 370px;
-	}
+  .social-icons {
+    position: relative;
+    top: 160px;
+    padding-left: 370px;
+  }
 
-	.f-button,
-	.t-button,
-	.i-button {
-		margin-right: 15px;
-	}
+  .f-button,
+  .t-button,
+  .i-button {
+    margin-right: 15px;
+  }
 }
